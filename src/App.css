@@ -4,8 +4,20 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+  #header_text {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #header_buttons {
+    display: none;
+  }
+}
+
 #mobile-nav {
-  color:#fff;
+  color: #fff;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -29,6 +41,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 110%; /* 35.2px */
+}
+
+#landing_hero_text_header_underline {
+  border-bottom: 4px solid #c084fc; /* Set the color and style of the underline */
+  text-decoration: none; /* Remove the default underline style */
 }
 
 #header_list_text {
@@ -64,4 +81,107 @@
   letter-spacing: 0.5px;
   padding: 12px;
   border-radius: 8px;
+}
+
+#landing-hero-text-header {
+  color: #fff;
+  /* Heading/1 M */
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%; /* 79.2px */
+}
+
+#landing-hero-text {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+#landing-hero-button1 {
+  width: 168px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid #9333ea;
+  background: #9333ea;
+  color: #fff;
+  /* Button/L */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.5px;
+}
+
+#landing-hero-button2 {
+  padding: 16px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: #0f172a;
+  color: #fff;
+  /* Button/L */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.5px;
+}
+
+#banner_hero_text_heading {
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* Heading/2 */
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%; /* 61.6px */
+}
+
+#banner-hero-banners {
+  gap: 40px;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 26.4px */
+}
+
+#discover_hero_small_text {
+  color: #fff;
+
+  /* Caption/M */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 20px */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#discover_hero_text_heading {
+  /* Heading/1 M */
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%; /* 79.2px */
+}
+
+#discover_hero_text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+#powerful_hero_text_heading {
+  color: var(--White, #fff);
+
+  /* Heading/2 */
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%; /* 61.6px */
 }
