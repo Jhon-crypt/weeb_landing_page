@@ -1,0 +1,67 @@
+@media only screen and (min-width: 768px) {
+  #mobile-nav {
+    display: none;
+  }
+}
+
+#mobile-nav {
+  color:#fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 35.2px */
+}
+
+#header-container {
+  width: 80%; /* Set the width of the container */
+  margin: 10px;
+  padding: 24px; /* Add padding inside the container */
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+
+  /* Shadow/Dark/XXL */
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.07),
+    0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+#header_text {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 35.2px */
+}
+
+#header_list_text {
+  color: #fff;
+
+  /* Button/M */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+}
+
+#header_list_signup_button {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #9333ea;
+  background: #9333ea;
+}
+
+#header_list_login_button {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  padding: 12px;
+  border-radius: 8px;
+}
